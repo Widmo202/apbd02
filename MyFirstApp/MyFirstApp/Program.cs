@@ -15,3 +15,7 @@ static double GetAvg(int[] arr)
 
     return avg / arr.Length;
 }
+int[] numbers = new []{1,2,3,4};
+
+double avg = GetAvg(numbers);
+Console.WriteLine(avg);
